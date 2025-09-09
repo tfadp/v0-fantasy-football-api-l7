@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/weekly-report",
+      "schedule": "0 10 * * 2"
+    },
+    {
+      "path": "/api/cron/waiver-wire-alert",
+      "schedule": "0 8 * * 3"
+    }
+  ]
+}
